@@ -21,6 +21,9 @@ module.exports = {
 }
 ```
 
+## Notes
+We explicitely parse .json files as JSON which differs from the behavior within prettier itself where certain files are assigned to JSON5 or JSONC.
+
 ## Contribute
 
 To setup current node version, you can use [nvm](https://github.com/nvm-sh/nvm)
