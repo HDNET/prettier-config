@@ -11,13 +11,15 @@ through a [shareable config](https://prettier.io/docs/en/configuration.html#shar
 
 1. Install dependencies
 ```bash
-$ npm i -D prettier github:HDNET/prettier-config
+$ npm i -D prettier @hdnet/prettier-config
 ```
 
 2. Create your prettier config file (i.e. `prettier.config.js`) and extend from @hdnet/prettier-config:
 ```javascript
-module.exports = {
-    ...require("@hdnet/prettier-config"),
+import hdnetPrettierConfig from '@hdnet/prettier-config'
+
+export default {
+  ...hdnetPrettierConfig,
 }
 ```
 
