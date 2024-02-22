@@ -1,5 +1,5 @@
 export default {
-  arrowParens: 'avoid',
+  arrowParens: 'always',
   bracketSameLine: false,
   bracketSpacing: true,
   printWidth: 120,
