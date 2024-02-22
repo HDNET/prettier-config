@@ -1,9 +1,9 @@
 module.exports = {
-    extends: '@hdnet',
+  extends: '@hdnet',
 
-    parserPreset: {
-        parserOpts: {
-            issuePrefixes: ['#'],
-        },
+  parserPreset: {
+    parserOpts: {
+      issuePrefixes: ['#'],
     },
+  },
 }

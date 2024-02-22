@@ -4,4 +4,4 @@
 > requiring explanation.
 
 - [scripts](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#scripts)
-    - `prepare` Installs git hooks with husky.
+  - `prepare` Installs git hooks with husky.

@@ -4,19 +4,13 @@
   "description": "HDNET prettier-config, implementing HSR-15",
   "author": "HDNET",
   "type": "module",
-  "keywords": [
-    "prettier",
-    "hdnet",
-    "HSR"
-  ],
+  "keywords": ["prettier", "hdnet", "HSR"],
   "repository": {
     "type": "git",
     "url": "https://github.com/HDNET/prettier-config.git"
   },
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "files": ["index.js"],
   "scripts": {
     "prepare": "husky"
   },

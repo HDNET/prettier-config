@@ -6,15 +6,16 @@ from the HDNET Standard Recommendations
 using [prettier](https://prettier.io)
 through a [shareable config](https://prettier.io/docs/en/configuration.html#sharing-configurations).
 
-
 ## Getting started
 
 1. Install dependencies
+
 ```bash
 $ npm i -D prettier @hdnet/prettier-config
 ```
 
 2. Create your prettier config file (i.e. `prettier.config.js`) and extend from @hdnet/prettier-config:
+
 ```javascript
 import hdnetPrettierConfig from '@hdnet/prettier-config'
 
@@ -24,6 +25,7 @@ export default {
 ```
 
 ## Notes
+
 We explicitely parse .json files as JSON which differs from the behavior within prettier itself where certain files are assigned to JSON5 or JSONC.
 
 ## Contribute
