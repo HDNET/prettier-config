@@ -12,7 +12,7 @@
   "main": "index.js",
   "files": ["index.js"],
   "scripts": {
-    "prepare": "husky"
+    "prepare": "node .husky/install.mjs"
   },
   "peerDependencies": {
     "prettier": ">= 3"
