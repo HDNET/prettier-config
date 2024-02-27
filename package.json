@@ -1,6 +1,6 @@
 {
   "name": "@hdnet/prettier-config",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "HDNET prettier-config, implementing HSR-15",
   "author": "HDNET",
   "type": "module",
