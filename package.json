@@ -10,9 +10,9 @@
     "url": "https://github.com/HDNET/prettier-config.git"
   },
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [".husky/install.js", "index.js"],
   "scripts": {
-    "prepare": "node ./.husky/install.js"
+    "prepare": "node .husky/install.js"
   },
   "peerDependencies": {
     "prettier": ">= 3"
