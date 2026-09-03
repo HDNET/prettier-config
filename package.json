@@ -15,7 +15,7 @@
     "prepare": "husky || exit 0"
   },
   "peerDependencies": {
-    "prettier": ">= 3"
+    "prettier": ">= 3.9"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.3",
